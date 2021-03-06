@@ -10,7 +10,7 @@ import os, sys
 #Loops through image
 for file in os.listdir():
     #matching the file with the name of the file
-    if file.endswith("48dp"):
+    if file.endswith('48dp'):
         # Opening, rotate, resize, and convert to RGB
         # including save file in /opt/icons with correct formats
         im = Image.open(file)
