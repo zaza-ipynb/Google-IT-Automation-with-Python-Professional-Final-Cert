@@ -8,4 +8,4 @@ PIL using ***image_fix_scaling.py***
 
 ## WEEK 2
 Qwiklabs Assessment: Process Text Files with Python Dictionaries and 
-Upload to Running Web Service using ***run.p***
+Upload to Running Web Service using ***run.py***
