@@ -31,6 +31,6 @@ for file in data_text:
                         result_dict['feedback'] = lines
                 count=count+1
 	"""POST request to post the data from dictionary from txt data"""
-        response = requests.post(r'http://34.69.245.175/feedback/', json=result_dict)
+        response = requests.post(r'http://<put external IP here>/feedback/', json=result_dict)
         print('Response',response.status_code)
         files.close()
